@@ -4,6 +4,8 @@ The SigmaLink USBi is an all-in-one real-time programming interface.
 
 MAIN COORDINATOR: [Max Chan](https://github.com/xcvista)
 
+![SigmaLink USBi Pod Image](Documentation/SigmaLink-Pod.jpg)
+
 The SigmaLink USBi is a low-budget real-time programming device for the freeDSP and other DSP boards from Analog Devices. It is a new PCB design based on a CY7C68013 chip.
 
 It has the same features as the Analog Devices USB interface (EVAL-ADUSB2EBZ), such as changing parameters while already using the freeDSP or easy changes of the schematic in SigmaStudio. You also can write your program to the EEPROM.
