@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SigmaLink-USBi-rescue)(type Legacy)(uri ${KIPRJMOD}/SigmaLink-USBi-rescue.lib)(options "")(descr ""))
+  (lib (name cy7c68013)(type Legacy)(uri ${KIPRJMOD}/cy7c68013.lib)(options "")(descr ""))
+  (lib (name usb-mux)(type Legacy)(uri /Users/technix/Developer/KiCad/USB-MUX/usb-mux.lib)(options "")(descr ""))
+)
