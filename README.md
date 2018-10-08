@@ -10,7 +10,9 @@ The SigmaLink USBi is a low-budget real-time programming device for the freeDSP 
 
 It has the same features as the Analog Devices USB interface (EVAL-ADUSB2EBZ), such as changing parameters while already using the freeDSP or easy changes of the schematic in SigmaStudio. You also can write your program to the EEPROM.
 
-Please refer to the documentation for more information.
+Please refer to the documentation for more information:
+
+[Google Doc](https://docs.google.com/document/d/13BDac6Mss2I0CBOsSrk4YG-c8GQUpgU41vkwsMnYBss/edit?usp=sharing)
 
 ## License
 
