@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SigmaLink USBi"
-Date "2018-05-02"
-Rev "v1r1"
+Date "2018-10-09"
+Rev "v2r1"
 Comp "SushiBits Projects"
 Comment1 ""
 Comment2 ""
