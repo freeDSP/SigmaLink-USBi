@@ -1,4 +1,4 @@
-16311378081788348
+16317604083205348
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -42770,6 +42770,13 @@ USB-A
 6
 5
 Connector_USB
+USB_A_JTJ_USB_AF_01
+
+
+0
+6
+5
+Connector_USB
 USB_A_Wuerth_61400826021_Horizontal_Stacked
 Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf
 Wuerth stacked USB_A
@@ -46633,6 +46640,13 @@ LCD 16x2 Alphanumeric 16pin
 0
 20
 16
+Display
+WKS43WQV004
+
+
+0
+44
+44
 Display
 WKS43WV001
 
@@ -56714,6 +56728,13 @@ QFN DFN_QFN
 103
 77
 Package_DFN_QFN
+QFN-88_1EP_10x10mm_P0.4mm_EP6.74x6.74mm
+
+
+0
+104
+89
+Package_DFN_QFN
 Qorvo_DFN-8-1EP_2x2mm_P0.5mm
 DFN 8 2x2mm, 0.5mm http://www.qorvo.com/products/d/da000896
 DFN 0.5 Qorvo 2x2mm
@@ -61676,6 +61697,13 @@ SSOP 0.5
 0
 56
 56
+Package_SO
+TSSOP-66_10.16x22.22mm_P0.65mm
+
+
+0
+66
+66
 Package_SO
 Vishay_PowerPAK_1212-8_Dual
 PowerPAK 1212-8 Dual (https://www.vishay.com/docs/71656/ppak12128.pdf, https://www.vishay.com/docs/72598/72598.pdf)
