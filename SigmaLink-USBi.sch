@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "SigmaLink USBi"
 Date "2018-10-09"
-Rev "v2r1"
+Rev "v3r1"
 Comp "SushiBits Projects"
 Comment1 ""
 Comment2 ""
@@ -120,41 +120,41 @@ F 3 "" H 5700 4000 50  0001 C CNN
 	1    5700 4000
 	1    0    0    -1  
 $EndComp
-Text Label 10800 2500 2    60   ~ 0
+Text Label 10800 2500 2    60   ~ 6
 TRESET
-Text Label 10800 2600 2    60   ~ 0
+Text Label 10800 2600 2    60   ~ 6
 LED_I2C
-Text Label 10800 2700 2    60   ~ 0
+Text Label 10800 2700 2    60   ~ 6
 LED_GPIO
-Text Label 10800 2800 2    60   ~ 0
+Text Label 10800 2800 2    60   ~ 6
 LED_SPI
-Text Label 10800 2900 2    60   ~ 0
+Text Label 10800 2900 2    60   ~ 6
 USB_EN
-Text Label 5900 2600 0    60   ~ 0
+Text Label 5900 2600 0    60   ~ 6
 TMCLK
-Text Label 5900 2800 0    60   ~ 0
+Text Label 5900 2800 0    60   ~ 6
 SCL
-Text Label 5900 2900 0    60   ~ 0
+Text Label 5900 2900 0    60   ~ 6
 SDA
-Text Label 10800 1600 2    60   ~ 0
+Text Label 10800 1600 2    60   ~ 6
 TDATA
-Text Label 10800 1700 2    60   ~ 0
+Text Label 10800 1700 2    60   ~ 6
 TOUT
-Text Label 10800 1800 2    60   ~ 0
+Text Label 10800 1800 2    60   ~ 6
 ~TLATCH1
-Text Label 10800 1900 2    60   ~ 0
+Text Label 10800 1900 2    60   ~ 6
 ~TLATCH2
-Text Label 10800 2000 2    60   ~ 0
+Text Label 10800 2000 2    60   ~ 6
 ~TLATCH3
-Text Label 10800 2100 2    60   ~ 0
+Text Label 10800 2100 2    60   ~ 6
 ~TLATCH4
-Text Label 10800 2200 2    60   ~ 0
+Text Label 10800 2200 2    60   ~ 6
 ~TLATCH5
-Text Label 10800 2300 2    60   ~ 0
+Text Label 10800 2300 2    60   ~ 6
 TCLK
-Text Label 7100 1900 0    60   ~ 0
+Text Label 7100 1900 0    60   ~ 6
 XTALO
-Text Label 7100 2000 0    60   ~ 0
+Text Label 7100 2000 0    60   ~ 6
 XTALI
 $Comp
 L SigmaLink-USBi-rescue:USB_B J1
@@ -397,9 +397,9 @@ F 3 "" H 2200 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2200 1000
-Text Label 6800 2200 0    60   ~ 0
+Text Label 6800 2200 0    60   ~ 6
 D+
-Text Label 6800 2300 0    60   ~ 0
+Text Label 6800 2300 0    60   ~ 6
 D-
 $Comp
 L SigmaLink-USBi-rescue:GS2 J2
@@ -488,11 +488,11 @@ Wire Wire Line
 Connection ~ 2600 4900
 Wire Wire Line
 	2100 4900 2100 5150
-Text Label 1900 6400 0    60   ~ 0
+Text Label 1900 6400 0    60   ~ 6
 LED_GPIO
-Text Label 1900 6500 0    60   ~ 0
+Text Label 1900 6500 0    60   ~ 6
 LED_I2C
-Text Label 1900 6600 0    60   ~ 0
+Text Label 1900 6600 0    60   ~ 6
 LED_SPI
 $Comp
 L power:GND #PWR04
@@ -519,7 +519,7 @@ Wire Wire Line
 	2600 6600 2600 6300
 Wire Wire Line
 	2700 6700 2700 6300
-Text Label 7200 2600 0    60   ~ 0
+Text Label 7200 2600 0    60   ~ 6
 MCK
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J3
@@ -532,31 +532,31 @@ F 3 "" H 6100 5200 50  0001 C CNN
 	1    6100 5200
 	1    0    0    -1  
 $EndComp
-Text Label 7000 4900 2    60   ~ 0
+Text Label 7000 4900 2    60   ~ 6
 ~TLATCH3
-Text Label 7000 5000 2    60   ~ 0
+Text Label 7000 5000 2    60   ~ 6
 TMCLK
-Text Label 7000 5100 2    60   ~ 0
+Text Label 7000 5100 2    60   ~ 6
 TVCC
-Text Label 7000 5200 2    60   ~ 0
+Text Label 7000 5200 2    60   ~ 6
 TRESET
-Text Label 7000 5300 2    60   ~ 0
+Text Label 7000 5300 2    60   ~ 6
 TDATA
-Text Label 7000 5500 2    60   ~ 0
+Text Label 7000 5500 2    60   ~ 6
 ~TLATCH5
-Text Label 5300 4900 0    60   ~ 0
+Text Label 5300 4900 0    60   ~ 6
 ~TLATCH2
-Text Label 5300 5000 0    60   ~ 0
+Text Label 5300 5000 0    60   ~ 6
 TSCL
-Text Label 5300 5100 0    60   ~ 0
+Text Label 5300 5100 0    60   ~ 6
 TSDA
-Text Label 5300 5200 0    60   ~ 0
+Text Label 5300 5200 0    60   ~ 6
 TOUT
-Text Label 5300 5300 0    60   ~ 0
+Text Label 5300 5300 0    60   ~ 6
 TCLK
-Text Label 5300 5400 0    60   ~ 0
+Text Label 5300 5400 0    60   ~ 6
 ~TLATCH1
-Text Label 5300 5500 0    60   ~ 0
+Text Label 5300 5500 0    60   ~ 6
 ~TLATCH4
 Wire Wire Line
 	5300 4900 5900 4900
@@ -673,17 +673,17 @@ Wire Wire Line
 	5200 5600 4300 5600
 Wire Wire Line
 	5200 6400 4800 6400
-Text Label 3200 5000 0    60   ~ 0
+Text Label 3200 5000 0    60   ~ 6
 SCL
-Text Label 3200 5600 0    60   ~ 0
+Text Label 3200 5600 0    60   ~ 6
 SDA
-Text Label 3200 6600 0    60   ~ 0
+Text Label 3200 6600 0    60   ~ 6
 USB_EN
-Text Label 5200 5000 2    60   ~ 0
+Text Label 5200 5000 2    60   ~ 6
 TSCL
-Text Label 5200 5600 2    60   ~ 0
+Text Label 5200 5600 2    60   ~ 6
 TSDA
-Text Label 5200 6400 2    60   ~ 0
+Text Label 5200 6400 2    60   ~ 6
 TVCC
 $Comp
 L power:+5V #PWR09
