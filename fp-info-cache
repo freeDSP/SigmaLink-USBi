@@ -1,4 +1,4 @@
-16317604083205348
+16334848288842348
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (http://www.bulgin.com/media/bulgin/data/Battery_holders.pdf)
@@ -178,6 +178,13 @@ Battery
 BatteryHolder_MPD_BH-18650-PC2
 18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)
 18650 Battery Holder
+0
+2
+2
+Battery
+BatteryHolder_QJ1220_1x1220
+
+
 0
 2
 2
@@ -1224,6 +1231,13 @@ Ultraminiature Surface Mount Slide Switch
 0
 7
 3
+Button_Switch_SMD
+SW_SPST_1TS003B-0A
+
+
+0
+4
+2
 Button_Switch_SMD
 SW_SPST_B3S-1000
 Surface Mount Tactile Switch for High-Density Packaging
@@ -6209,13 +6223,6 @@ connector cf
 54
 50
 Connector_Card
-HRO_TF-01A
-
-
-0
-13
-10
-Connector_Card
 microSD_HC_Hirose_DM3AT-SF-PEJM5
 Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
 Micro SD
@@ -6236,6 +6243,13 @@ Micro SD
 0
 14
 11
+Connector_Card
+microSD_HC_HRO_TF-01A
+
+
+0
+13
+10
 Connector_Card
 microSD_HC_Wuerth_693072010801
 http://katalog.we-online.de/em/datasheet/693072010801.pdf
@@ -6285,6 +6299,13 @@ sd card
 0
 15
 12
+Connector_Card
+SIM_SOFNG_SIM004
+
+
+0
+8
+7
 Connector_Coaxial
 BNC_Amphenol_B6252HB-NPP3G-50_Horizontal
 http://www.farnell.com/datasheets/612848.pdf
@@ -42742,13 +42763,6 @@ connector TE MATE-N-LOK top entry
 1
 1
 Connector_USB
-A01SB1x41B
-
-
-0
-8
-6
-Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
 USB 3.0 type A right angle
@@ -42775,6 +42789,13 @@ USB_A_JTJ_USB_AF_01
 
 0
 6
+5
+Connector_USB
+USB_A_JTJ_USB_AF_90
+
+
+0
+7
 5
 Connector_USB
 USB_A_Wuerth_61400826021_Horizontal_Stacked
@@ -43547,6 +43568,13 @@ DCDC SMD
 7
 7
 Converter_DCDC
+Converter_DCDC_AxxxxS_THT
+muRata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
+muRata NMAxxxxSC DCDC-Converter
+0
+5
+5
+Converter_DCDC
 Converter_DCDC_Bothhand_CFUDxxxx_THT
 DCDC-Converter, BOTHHAND, Type CFxxxx-Serie,  (Very dodgy url but was the only at hand), 
 DCDC-Converter BOTHHAND Type CFxxxx-Serie
@@ -43567,6 +43595,13 @@ DCDC-Converter BOTHHAND Type CFxxxx-Serie
 0
 8
 8
+Converter_DCDC
+Converter_DCDC_BxxxxLS_THT
+muRata NMAxxxxSC footprint based on SIP7, http://power.murata.com/data/power/ncl/kdc_nma.pdf
+muRata NMAxxxxSC DCDC-Converter
+0
+4
+4
 Converter_DCDC
 Converter_DCDC_Cincon_EC5BExx_Dual_THT
 DCDC-Converter, CINCON, EC5BExx, 18-36VDC to Dual output, http://www.cincon.com/upload/media/data%20sheets/Data%20Sheet%20(DC)/B%20CASE/SPEC-EC5BE-V24.pdf
@@ -46619,6 +46654,13 @@ LCD 12x2
 0
 14
 14
+Display
+LMB204B
+
+
+0
+20
+16
 Display
 NHD-0420H1Z
 NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
@@ -52332,6 +52374,13 @@ mounting hole 2.7mm no annular m2.5
 0
 0
 MountingHole
+MountingHole_2.7mm_M2.5_Back6.2
+Mounting Hole 2.7mm, no annular, M2.5
+mounting hole 2.7mm no annular m2.5
+0
+0
+0
+MountingHole
 MountingHole_2.7mm_M2.5_DIN965
 Mounting Hole 2.7mm, no annular, M2.5, DIN965
 mounting hole 2.7mm no annular m2.5 din965
@@ -55264,6 +55313,13 @@ DFN 0.5
 0
 27
 19
+Package_DFN_QFN
+DFN-18_9.7x10.1mm_P1.1mm
+
+
+0
+18
+18
 Package_DFN_QFN
 DFN-20-1EP_5x6mm_P0.5mm_EP3.24x4.24mm
 DFN20, 6x5, 0.5P; CASE 505AB (see ON Semiconductor 505AB.PDF)
@@ -67256,6 +67312,13 @@ PCB antenna
 2
 2
 RF_Module
+Ai-Thinker-A6-GPRS
+
+
+0
+42
+42
+RF_Module
 Ai-Thinker-Ra-01-LoRa
 Ai Thinker Ra-01 LoRa
 LoRa Ra-01
@@ -72939,6 +73002,20 @@ Transformer Ethernet SMD
 0
 24
 24
+Transformer_SMD
+Transformer_Hanrun_HR682411
+
+
+0
+24
+24
+Transformer_SMD
+Transformer_JWD_S16116G
+
+
+0
+16
+16
 Transformer_SMD
 Transformer_MACOM_SM-22
 https://cdn.macom.com/datasheets/ETC1-1-13.pdf
